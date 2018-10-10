@@ -9,22 +9,43 @@ nav {
   nav ul {
     margin: 0;
     padding: 0;
-    list-style: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
-    nav ul li {
-      display: inline; }
-      nav ul li a {
-        display: inline-block;
-        padding: 1em;
-        color: white;
-        text-decoration: none; }
-      nav ul li :hover {
-        background-color: black; }
+    list-style: none; }
+    nav ul li a {
+      display: inline-block;
+      padding: 1em;
+      color: white;
+      text-decoration: none; }
+    nav ul li :hover {
+      background-color: black; }
+
+nav ul li:first-child > a {
+  display: inline-block; }
+
+#menu-icon {
+  float: right;
+  display: block; }
+
+.topnav ul li a {
+  display: none; }
+
+.topnav.dropped ul li a {
+  display: block; }
+
+.topnav.dropped #menu-icon {
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.material-icons {
+  font-size: 1em; }
+
+@media screen and (min-width: 600px) {
+  #menu-icon {
+    display: none; }
+  .topnav ul li a {
+    display: inline-block; }
+  .topnav ul li {
+    display: inline; } }
 
 html {
   font-family: 'Nunito', sans-serif; }

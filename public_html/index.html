@@ -6,24 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Pink Head Noodle Bar</title>
 </head>
 <body>
-    <nav>
-        <ul class="wrapper">
-            <div class="nav-logo">
-                <li><a href="#section0">Pink Head</a></li>
-                </div>
-                <div class="nav-items">
-                <li><a href="#section1">Öppetider</a></li>
-                <li><a href="#section2">Meny</a></li>
-                <li><a href="#section3">Om oss</a></li>
-                <li><a href="#section4">Kontakt</a></li>
-            </div>
+    <nav class="topnav" id="myTopnav">
+        <ul id="menu">
+            <li><a href="javascript:void(0);" id="menu-icon" onclick="navToggle()"><i class="material-icons">
+                    more_vert</i></a></li>
+            <li><a href="#section1">Öppetider</a></li>
+            <li><a href="#section2">Meny</a></li>
+            <li><a href="#section3">Om oss</a></li>
+            <li><a href="#section4">Kontakt</a></li>
         </ul>
     </nav>
-
-
             <header id="section0">
                 <div class="hero-content">
                         <h1>PINK HEAD</h1>
@@ -103,8 +99,26 @@
                 </main>
             
     </div> <!-- content wrapper-->
+    <footer>
+            <small>
+    </footer>
+    <script>
+            /*Detta är 
+            en flerradskommentar i JavaScript*/
+            //detta är en enradskommentar i JS
+    
+            /*
+            en funktion som lägger till/tar bort klassen "dropped" på topnav när användern trycker på meny-ikon
+            */
+            function navToggle(){
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav"){
+                    x.className += " dropped";
+                }
+                else{
+                    x.className = "topnav";
+                }
+            }
+        </script>
 </body>
-<footer>
-        <small>
-</footer>
 </html>

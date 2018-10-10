@@ -11,10 +11,8 @@ nav {
       margin: 0;
       padding: 0;
       list-style: none;
-      display: flex;
-      justify-content: space-between;
       li {
-        display: inline;
+        
         a {
           display: inline-block;
           padding: 1em;
@@ -26,3 +24,42 @@ nav {
       }
     }
   }
+
+nav ul li:first-child > a{
+    display: inline-block;
+}
+
+#menu-icon{
+  float:right;
+  display:block;
+}
+
+.topnav ul li a{
+  display: none;
+}
+
+.topnav.dropped ul li a{
+  display: block;
+}
+
+.topnav.dropped #menu-icon{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.material-icons{
+  font-size: 1em;
+}
+
+@media screen and (min-width: 600px){
+  #menu-icon{
+      display:none;
+  }
+  .topnav ul li a{
+      display: inline-block;
+  }
+  .topnav ul li{
+    display: inline;
+  }
+}

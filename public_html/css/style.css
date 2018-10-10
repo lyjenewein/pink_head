@@ -14,8 +14,8 @@ nav {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
     nav ul li {
       display: inline; }
       nav ul li a {
@@ -28,3 +28,27 @@ nav {
 
 html {
   font-family: 'Nunito', sans-serif; }
+
+/* ====== Flex ====== */
+.wrapper-content {
+  margin-left: 10vw;
+  margin-right: 10wv;
+  width: 80vw; }
+
+.grid-master {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh; }
+
+.grid-item1 {
+  width: 100%; }
+
+#section0 {
+  height: 100vh; }
+
+#section3 {
+  height: 100vh; }
+
+#section4 {
+  height: 100vh; }

@@ -1,0 +1,38 @@
+@import "navbar";
+
+html{
+    font-family:'Nunito', sans-serif;
+}
+
+  /* ====== Flex ====== */
+
+  .wrapper-content {
+    margin-left: 10vw;
+    margin-right: 10wv;
+    width: 80vw;
+  }
+  
+  .grid-master {
+    display: flex;
+    height: 100vh;
+  
+  }
+  
+  .grid-item1 {
+    width: 100%;
+  }
+  
+  #section0 {
+    height: 100vh;
+  }
+  
+  #section3 {
+    height: 100vh;
+  
+  }
+  
+  #section4 {
+    height: 100vh;
+  
+  }
+  

@@ -1,7 +1,15 @@
 @import "navbar";
+@import "hero";
+@import "normalize";
 
 html{
     font-family:'Nunito', sans-serif;
+}
+
+body {
+  color: #F7EDD2;
+  background-color: #2B2625;
+  margin: 0;
 }
 
   /* ====== Flex ====== */

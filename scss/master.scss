@@ -1,6 +1,6 @@
-@import "navbar";
-@import "hero";
 @import "normalize";
+@import "hero";
+@import "navbar";
 
 html{
     font-family:'Nunito', sans-serif;
@@ -10,6 +10,11 @@ body {
   color: #F7EDD2;
   background-color: #2B2625;
   margin: 0;
+}
+
+h1 {
+  font-size: 6em;
+  text-align: center;
 }
 
   /* ====== Flex ====== */

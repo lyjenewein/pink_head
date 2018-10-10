@@ -1,0 +1,30 @@
+/* ====== NAVBAR ====== */
+nav {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    nav ul li {
+      display: inline; }
+      nav ul li a {
+        display: inline-block;
+        padding: 1em;
+        color: white;
+        text-decoration: none; }
+      nav ul li :hover {
+        background-color: black; }
+
+html {
+  font-family: 'Nunito', sans-serif; }

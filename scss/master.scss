@@ -48,7 +48,7 @@ footer{
     padding: 1em;
     border: 1px solid #F7EDD2;
     margin: 1em; 
-     
+    width: 95vw;
   }
 
   .grid-item2 {
@@ -56,14 +56,14 @@ footer{
     padding: 1em;
     margin-left: 1em;
     margin-right: 0.5em;
-    width: 45vw;
+    width: 47.2vw;
   }
 
   .grid-item3 {
     border: 1px solid #F7EDD2;
     padding: 1em;
     margin-right: 1em;
-    width: 45vw;
+    width: 47.2vw;
   }
   
   #section0 {
@@ -99,6 +99,42 @@ footer{
     font-size: 2em;
   }
 
+  .fa-circle{
+    font-size: 0.1em;
+    }
+
+  .caption{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;  
+  }
+
+  blockquote {
+    display: block;
+    border-width: 2px 0;
+    border-style: solid;
+    border-color: #F7EDD2;
+    padding: 1.5em 0 0.5em;
+    margin: 1.5em 0;
+    position: relative;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  blockquote:before {
+    content: '\201C';
+    position: absolute;
+    top: -0.1em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2B2625;
+    width: 3rem;
+    height: 2rem;
+    font: 5em/1.08em 'PT Sans', sans-serif;
+    color: rgb(236, 59, 89);
+    text-align: center;
+  }
+
+
 @media screen and (min-width: 600px){ 
 
   .aboutus-container{
@@ -108,6 +144,17 @@ footer{
     width: 50vw;  
   }
 
+  .grid-item1{
+    padding-left: 10%;
+  }
+  
+  .grid-item2{
+    padding-left: 5%;
+  }
+  
+  .grid-item3{
+    padding-left: 5%;
+  }
   .item2{
     padding-top: 0%;
     padding-left: 5em;

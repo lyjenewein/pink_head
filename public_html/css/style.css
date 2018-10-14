@@ -310,11 +310,16 @@ template {
 .hero-content {
   padding-top: 20vh;
   margin-left: 10vw;
-  margin-right: 10vw; }
+  margin-right: 10vw;
+  text-shadow: 2px 2px 4px #1f1d1d; }
+
+.pink {
+  color: #ec3b59;
+  text-shadow: 2px 2px 4px #1f1d1d; }
 
 /* ====== NAVBAR ====== */
 nav {
-  background-color: black;
+  background-color: #070506;
   position: fixed;
   top: 0;
   left: 0;
@@ -325,12 +330,14 @@ nav {
     padding: 0;
     list-style: none; }
     nav ul li a {
+      font-size: 1.2em;
       display: inline-block;
       padding: 1em;
       color: #F7EDD2;
       text-decoration: none; }
     nav ul li :hover {
-      background-color: black; }
+      background-color: rgba(243, 125, 145, 0.815);
+      text-shadow: 2px 2px 4px #1f1d1d; }
 
 nav ul li:first-child > a {
   display: inline-block; }
@@ -382,7 +389,7 @@ h1 {
   text-align: center; }
 
 footer {
-  background-color: black;
+  background-color: #070506;
   color: #F7EDD2;
   text-align: center;
   padding: 1em; }

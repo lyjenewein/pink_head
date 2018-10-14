@@ -4,6 +4,7 @@
 
 html{
     font-family:'Nunito', sans-serif;
+    
 }
 
 body {
@@ -21,18 +22,32 @@ h1 {
 
   .wrapper-content {
     margin-left: 10vw;
-    margin-right: 10wv;
+    margin-right: 10vw;
     width: 80vw;
   }
   
   .grid-master {
     display: flex;
-    height: 100vh;
-  
+
   }
   
   .grid-item1 {
-    width: 100%;
+    padding: 1em;
+    border: 1px solid #F7EDD2;
+    margin: 1em;  
+  }
+
+  .grid-item2 {
+    border: 1px solid #F7EDD2;
+    padding: 1em;
+    margin-left: 1em;
+    margin-right: 0.5em;
+  }
+
+  .grid-item3 {
+    border: 1px solid #F7EDD2;
+    padding: 1em;
+    margin-right: 1em;
   }
   
   #section0 {
@@ -40,12 +55,17 @@ h1 {
   }
   
   #section3 {
-    height: 100vh;
-  
+    margin: 2em;
+    margin-top: 5em;
+    height: 100vh;  
   }
   
   #section4 {
     height: 100vh;
-  
+    margin: 2em;
   }
   
+  .ramen {
+    width: 100vw;
+    height: auto;
+  }

@@ -304,7 +304,8 @@ template {
 #section0 {
   background-image: url(../images/noodle_hero.jpg);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  width: 100vw; }
 
 .hero-content {
   padding-top: 20vh;
@@ -326,7 +327,7 @@ nav {
     nav ul li a {
       display: inline-block;
       padding: 1em;
-      color: white;
+      color: #F7EDD2;
       text-decoration: none; }
     nav ul li :hover {
       background-color: black; }
@@ -375,23 +376,42 @@ h1 {
 /* ====== Flex ====== */
 .wrapper-content {
   margin-left: 10vw;
-  margin-right: 10wv;
+  margin-right: 10vw;
   width: 80vw; }
 
 .grid-master {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  height: 100vh; }
+  display: flex; }
 
 .grid-item1 {
-  width: 100%; }
+  padding: 1em;
+  border: 1px solid #F7EDD2;
+  margin: 1em; }
+
+.grid-item2 {
+  border: 1px solid #F7EDD2;
+  padding: 1em;
+  margin-left: 1em;
+  margin-right: 0.5em; }
+
+.grid-item3 {
+  border: 1px solid #F7EDD2;
+  padding: 1em;
+  margin-right: 1em; }
 
 #section0 {
   height: 100vh; }
 
 #section3 {
+  margin: 2em;
+  margin-top: 5em;
   height: 100vh; }
 
 #section4 {
-  height: 100vh; }
+  height: 100vh;
+  margin: 2em; }
+
+.ramen {
+  width: 100vw;
+  height: auto; }

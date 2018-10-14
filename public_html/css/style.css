@@ -492,4 +492,8 @@ blockquote:before {
   .item2 {
     padding-top: 0%;
     padding-left: 5em;
-    padding-right: 10%; } }
+    padding-right: 10%; }
+  .caption {
+    font-size: 45px;
+    padding-top: 0;
+    padding-bottom: 0; } }

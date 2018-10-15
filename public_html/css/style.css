@@ -410,8 +410,7 @@ nav ul li:first-child > a {
 .grid-item1 {
   padding: 1em;
   border: 1px solid #F7EDD2;
-  margin: 1em;
-  /*width: 95vw;*/ }
+  margin: 1em; }
 
 .grid-item2 {
   border: 1px solid #F7EDD2;

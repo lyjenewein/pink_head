@@ -2,20 +2,21 @@
     border: 1px solid #F7EDD2;
     padding: 0.5em;
     text-align: center;
-  }
+}
 
-  .input-field{
+.input-field{
     width: 90%;
-  }
-  .message{
+}
+  
+.message{
     height: 3em;
-  }
-  .contact-form{
+}
+  
+.contact-form{
     padding-top: 1em;
-  }
+}
 
 @media screen and (min-width: 600px){ 
-
   .input-field{
     width: 35%;
   }

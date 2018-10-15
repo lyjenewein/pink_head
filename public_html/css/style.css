@@ -323,7 +323,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 1000; }
   nav ul {
     margin: 0;
@@ -370,7 +370,6 @@ nav ul li:first-child > a {
 
 html {
   font-family: 'Nunito', sans-serif;
-  width: 100%;
   scroll-behavior: smooth; }
 
 * {
@@ -381,8 +380,7 @@ html {
 body {
   color: #F7EDD2;
   background-color: #2B2625;
-  margin: 0;
-  width: 100%; }
+  margin: 0; }
 
 h1 {
   font-size: 6em;
@@ -396,7 +394,7 @@ footer {
 
 /* ====== Flex ====== */
 .wrapper-content {
-  width: 100vw; }
+  width: 100%; }
 
 .grid-master {
   display: -webkit-box;
@@ -407,14 +405,14 @@ footer {
   padding: 1em;
   border: 1px solid #F7EDD2;
   margin: 1em;
-  width: 95vw; }
+  /*width: 95vw;*/ }
 
 .grid-item2 {
   border: 1px solid #F7EDD2;
   padding: 1em;
   margin-left: 1em;
   margin-right: 0.5em;
-  width: 47.2vw; }
+  /*width: 47.2vw;*/ }
 
 .grid-item3 {
   border: 1px solid #F7EDD2;
@@ -482,6 +480,11 @@ blockquote:before {
   font: 5em/1.08em 'PT Sans', sans-serif;
   color: #ec3b59;
   text-align: center; }
+
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important; }
 
 @media screen and (min-width: 600px) {
   .aboutus-container {

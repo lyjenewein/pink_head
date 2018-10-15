@@ -360,6 +360,11 @@ nav ul li:first-child > a {
 .material-icons {
   font-size: 1em; }
 
+#myTopnav {
+  -webkit-transition: top 0.3s;
+  -o-transition: top 0.3s;
+  transition: top 0.3s; }
+
 @media screen and (min-width: 600px) {
   #menu-icon {
     display: none; }
@@ -435,11 +440,19 @@ footer {
 #section4 {
   height: 100vh;
   margin: 2em; }
+  #section4 h2 {
+    padding-top: 5em; }
 
 .ramen {
   width: 100%;
   height: auto;
   margin-right: 0.5em; }
+
+.align-vertically {
+  vertical-align: middle; }
+
+.fa-circle {
+  padding: 1.5em; }
 
 .fa-instagram {
   color: #ec3b59;
@@ -505,4 +518,9 @@ blockquote:before {
   .caption {
     font-size: 45px;
     padding-top: 0;
-    padding-bottom: 0; } }
+    padding-bottom: 0; }
+  .fa-circle {
+    padding: 1.5em;
+    font-size: 0.2em; }
+  #section4 h2 {
+    padding-top: 1em; } }

@@ -80,12 +80,23 @@ footer{
   #section4 {
     height: 100vh;
     margin: 2em;
+    h2{
+      padding-top: 5em;
+    }
   }
   
   .ramen {
     width: 100%;
     height: auto;
     margin-right: 0.5em;
+  }
+
+  .align-vertically {
+    vertical-align: middle;
+  }
+
+  .fa-circle{
+    padding: 1.5em;
   }
 
   .fa-instagram{
@@ -166,5 +177,16 @@ footer{
     font-size: 45px;
     padding-top: 0;
     padding-bottom: 0; 
+  }
+
+  .fa-circle{
+    padding: 1.5em;
+    font-size: 0.2em;
+  }
+
+  #section4{
+    h2{
+      padding-top: 1em;
+    }
   }
 }

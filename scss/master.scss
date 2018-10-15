@@ -3,7 +3,9 @@
 @import "navbar";
 @import "hero";
 @import "meny";
+@import "blockquote";
 @import "aboutus";
+@import "contact";
 
 
 html{
@@ -57,7 +59,6 @@ footer{
 
  /* ====== captions ====== */
 
-  
 .caption{
   text-align: center;
   padding-top: 2em;
@@ -68,73 +69,16 @@ footer{
   vertical-align: middle;
 }
 
-
-
-  .contact-box{
-    border: 1px solid #F7EDD2;
-    padding: 0.5em;
-    text-align: center;
-  }
-
-  .input-field{
-    width: 90%;
-  }
-  .message{
-    height: 3em;
-  }
-
-  blockquote {
-    display: block;
-    border-width: 2px 0;
-    border-style: solid;
-    border-color: #F7EDD2;
-    padding: 1.5em 0 0.5em;
-    margin: 1.5em 0;
-    position: relative;
-    font-size: 1.5em;
-    text-align: center;
-  }
-  blockquote:before {
-    content: '\201C';
-    position: absolute;
-    top: -0.1em;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #2B2625;
-    width: 3rem;
-    height: 2rem;
-    font: 5em/1.08em 'PT Sans', sans-serif;
-    color: rgb(236, 59, 89);
-    text-align: center;
-  }
-
-
-
-  .contact-form{
-    padding-top: 1em;
-  }
-
 @media screen and (min-width: 600px){ 
-
-
-
   .caption{
     font-size: 45px;
     padding-top: 0;
     padding-bottom: 0; 
   }
 
-
   #section4{
     h2{
       padding-top: 1em;
     }
-  }
-
-  .input-field{
-    width: 35%;
-  }
-  .message{
-    height: 6em;
   }
 }

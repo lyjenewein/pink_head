@@ -121,6 +121,20 @@ footer{
     padding-bottom: 1em;  
   }
 
+
+  .contact-box{
+    border: 1px solid #F7EDD2;
+    padding: 0.5em;
+    text-align: center;
+  }
+
+  .input-field{
+    width: 90%;
+  }
+  .message{
+    height: 3em;
+  }
+
   blockquote {
     display: block;
     border-width: 2px 0;
@@ -146,6 +160,11 @@ footer{
     text-align: center;
   }
 
+
+
+  .contact-form{
+    padding-top: 1em;
+  }
 
 @media screen and (min-width: 600px){ 
 
@@ -179,6 +198,8 @@ footer{
     padding-bottom: 0; 
   }
 
+
+
   .fa-circle{
     padding: 1.5em;
     font-size: 0.2em;
@@ -188,5 +209,12 @@ footer{
     h2{
       padding-top: 1em;
     }
+  }
+
+  .input-field{
+    width: 35%;
+  }
+  .message{
+    height: 6em;
   }
 }

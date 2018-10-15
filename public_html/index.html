@@ -16,10 +16,10 @@
             <ul id="menu">
                 <li><a href="javascript:void(0);" id="menu-icon" onclick="navToggle()"><i class="material-icons">
                         more_vert</i></a></li>
-                <li><a href="#section1">Öppettider</a></li>
-                <li><a href="#section2">Meny</a></li>
-                <li><a href="#section3">Om oss</a></li>
-                <li><a href="#section4">Kontakt</a></li>
+                <li><a href="#section1" onclick="navToggle()">Öppettider</a></li>
+                <li><a href="#section2" onclick="navToggle()">Meny</a></li>
+                <li><a href="#section3" onclick="navToggle()">Om oss</a></li>
+                <li><a href="#section4" onclick="navToggle()">Kontakt</a></li>
             </ul>
         </nav>
                 <header id="section0">
@@ -81,17 +81,24 @@
                     </section>
                     <section id="section4">
                         <h2 class="caption align-vertically"><i class="fas fa-circle align-vertically"></i>KONTAKT<i class="fas fa-circle align-vertically"></i></h2>
-                            <h4>Pink Head Noodle Bar</h4>
-                            <p>Malmö Saluhall, Gibraltagatan 6, 21118 Malmö, Sweden</p>
-                            <p>076-135 34 79</p>
-                            <h3>Questions? Don't hesitate to write us!</h3>
-                                <form action=""> 
-                                    Name <br>
-                                    <input type="text"> <br>
-                                    Message <br>
-                                    <textarea name="message-box"> </textarea> <br> <br>
-                                    <input type="submit">
-                                </form>
+                            <div class="contact-box">
+                                <h3>Pink <span class="pink">Head</span> Noodle Bar</h3>
+                                <p>Malmö Saluhall, Gibraltagatan 6, 21118 Malmö, Sweden</p>
+                                <p>076-135 34 79</p>
+                                <div class="contact-form">
+                                    <h3>Frågor? Skriv till oss!</h3>
+                                    <form action="mailto:pinkhead@noodlebar.com" method="post" enctype="text/plain">
+                                        Namn:<br>
+                                        <input class="input-field" type="text" name="name"><br><br>
+                                        E-post:<br>
+                                        <input class="input-field" type="text" name="mail"><br><br>
+                                        Meddelande:<br> 
+                                        <input class="input-field message" type="text" name="comment"><br><br>
+                                        <input type="submit" value="Send">
+                                        <input type="reset" value="Reset">
+                                        </form>
+                                </div>   
+                            </div>
                     </section>
         </div>
         <footer>
@@ -108,6 +115,7 @@
                     else{
                         x.className = "topnav";
                     }
+
                 }
             </script>
     </body>

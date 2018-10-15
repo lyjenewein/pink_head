@@ -35,24 +35,28 @@ footer{
   padding: 1em;
 }
 
- 
-  #section0 {
-    height: 100vh;
-  }
+ /* ====== sections ====== */
+
+#section0 {
+  height: 100vh;
+}
   
-  #section3 {
-    margin: 2em;
-    margin-top: 5em;
-    height: 100vh;  
-  }
+#section3 {
+  margin: 2em;
+  margin-top: 5em;
+  height: 100vh;  
+}
   
-  #section4 {
-    height: 100vh;
-    margin: 2em;
+#section4 {
+  height: 100vh;
+  margin: 2em;
     h2{
       padding-top: 5em;
-    }
   }
+}
+
+ /* ====== captions ====== */
+
   
 .caption{
   text-align: center;
@@ -60,13 +64,10 @@ footer{
   padding-bottom: 1em;  
 }
 
-  .align-vertically {
-    vertical-align: middle;
-  }
+.align-vertically {
+  vertical-align: middle;
+}
 
-
-
- 
 
 
   .contact-box{
@@ -115,12 +116,7 @@ footer{
 
 @media screen and (min-width: 600px){ 
 
-  .aboutus-container{
-    display:flex;
-  }
-  .aboutus-item{
-    width: 50vw;  
-  }
+
 
   .caption{
     font-size: 45px;

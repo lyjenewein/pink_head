@@ -443,6 +443,14 @@ nav ul li:first-child > a {
   height: auto;
   margin-right: 0.5em; }
 
+@media screen and (min-width: 600px) {
+  .aboutus-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .aboutus-item {
+    width: 50vw; } }
+
 html {
   font-family: 'Nunito', sans-serif;
   scroll-behavior: smooth; }
@@ -467,6 +475,7 @@ footer {
   text-align: center;
   padding: 1em; }
 
+/* ====== sections ====== */
 #section0 {
   height: 100vh; }
 
@@ -481,6 +490,7 @@ footer {
   #section4 h2 {
     padding-top: 5em; }
 
+/* ====== captions ====== */
 .caption {
   text-align: center;
   padding-top: 2em;
@@ -530,12 +540,6 @@ blockquote:before {
   padding-top: 1em; }
 
 @media screen and (min-width: 600px) {
-  .aboutus-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-  .aboutus-item {
-    width: 50vw; }
   .caption {
     font-size: 45px;
     padding-top: 0;

@@ -3,3 +3,13 @@
     height: auto;
     margin-right: 0.5em;
   }
+
+@media screen and (min-width: 600px){ 
+
+  .aboutus-container{
+    display:flex;
+  }
+  .aboutus-item{
+    width: 50vw;  
+  }
+}

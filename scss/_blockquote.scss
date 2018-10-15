@@ -8,8 +8,9 @@ blockquote {
     position: relative;
     font-size: 1.5em;
     text-align: center;
-  }
-  blockquote:before {
+}
+
+blockquote:before {
     content: '\201C';
     position: absolute;
     top: -0.1em;
@@ -21,4 +22,4 @@ blockquote {
     font: 5em/1.08em 'PT Sans', sans-serif;
     color: rgb(236, 59, 89);
     text-align: center;
-  }
+}

@@ -410,8 +410,7 @@ nav ul li:first-child > a {
 .grid-item1 {
   padding: 1em;
   border: 1px solid #F7EDD2;
-  margin: 1em;
-  /*width: 95vw;*/ }
+  margin: 1em; }
 
 .grid-item2 {
   border: 1px solid #F7EDD2;
@@ -520,6 +519,13 @@ footer {
   color: #F7EDD2;
   text-align: center;
   padding: 1em; }
+
+button {
+  background-color: #ec3b59;
+  color: #F7EDD2;
+  border-radius: 6px;
+  border: 1px solid #ec3b59;
+  padding: 0.3em; }
 
 /* ====== sections ====== */
 #section0 {

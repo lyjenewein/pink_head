@@ -394,12 +394,16 @@ footer {
 
 /* ====== Flex ====== */
 .wrapper-content {
-  width: 100%; }
+  width: 100%;
+  margin: 0;
+  padding: 0; }
 
 .grid-master {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  margin: 0;
+  padding: 0; }
 
 .grid-item1 {
   padding: 1em;
@@ -480,11 +484,6 @@ blockquote:before {
   font: 5em/1.08em 'PT Sans', sans-serif;
   color: #ec3b59;
   text-align: center; }
-
-* {
-  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important; }
 
 @media screen and (min-width: 600px) {
   .aboutus-container {

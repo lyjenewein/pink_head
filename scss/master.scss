@@ -35,11 +35,14 @@ footer{
 
   .wrapper-content {
     width: 100%;
+    margin: 0;
+    padding:0;
   }
   
   .grid-master {
     display: flex;
-
+    margin: 0;
+    padding: 0;
   }
   
   .grid-item1 {
@@ -132,12 +135,7 @@ footer{
     text-align: center;
   }
 
-  * {
-    background: #000 !important;
-    color: #0f0 !important;
-    outline: solid #f00 1px !important;
-  }
-  
+
 @media screen and (min-width: 600px){ 
 
   .aboutus-container{

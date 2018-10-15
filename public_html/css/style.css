@@ -394,6 +394,10 @@ nav ul li:first-child > a {
   color: #ec3b59;
   text-shadow: 2px 2px 4px #1f1d1d; }
 
+@media screen and (min-width: 600px) {
+  #section0 {
+    background-attachment: fixed; } }
+
 /* ====== Flex ====== */
 .wrapper-content {
   width: 100%;

@@ -1,0 +1,26 @@
+.fa-circle{
+    padding: 1.5em;
+}
+
+.fa-instagram{
+    color: rgb(236, 59, 89);
+    padding-right: 0.2em;
+    font-size: 2em;
+}
+
+.fa-facebook-f{
+    color: rgb(236, 59, 89);
+    padding-left: 0.2em;
+    font-size: 2em;
+}
+
+.fa-circle{
+    font-size: 0.1em;
+}
+
+@media screen and (min-width: 600px){ 
+    .fa-circle{
+        padding: 1.5em;
+        font-size: 0.2em;
+    }
+}

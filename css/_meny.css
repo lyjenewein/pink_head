@@ -1,0 +1,43 @@
+/* ====== Flex ====== */
+.wrapper-content {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.grid-master {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0; }
+
+.grid-item1 {
+  padding: 1em;
+  border: 1px solid #F7EDD2;
+  margin: 1em;
+  /*width: 95vw;*/ }
+
+.grid-item2 {
+  border: 1px solid #F7EDD2;
+  padding: 1em;
+  margin-left: 1em;
+  margin-right: 0.5em;
+  width: 47.2vw; }
+
+.grid-item3 {
+  border: 1px solid #F7EDD2;
+  padding: 1em;
+  margin-right: 1em;
+  width: 47.2vw; }
+
+@media screen and (min-width: 600px) {
+  .grid-item1 {
+    padding-left: 10%; }
+  .grid-item2 {
+    padding-left: 5%; }
+  .grid-item3 {
+    padding-left: 5%; }
+  .item2 {
+    padding-top: 0%;
+    padding-left: 5em;
+    padding-right: 10%; } }

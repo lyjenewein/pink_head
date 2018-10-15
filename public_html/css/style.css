@@ -301,21 +301,26 @@ template {
 [hidden] {
   display: none; }
 
-#section0 {
-  background-image: url(../images/noodle_hero.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 0; }
+.fa-circle {
+  padding: 1.5em; }
 
-.hero-content {
-  padding-top: 20vh;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  text-shadow: 2px 2px 4px #1f1d1d; }
-
-.pink {
+.fa-instagram {
   color: #ec3b59;
-  text-shadow: 2px 2px 4px #1f1d1d; }
+  padding-right: 0.2em;
+  font-size: 2em; }
+
+.fa-facebook-f {
+  color: #ec3b59;
+  padding-left: 0.2em;
+  font-size: 2em; }
+
+.fa-circle {
+  font-size: 0.1em; }
+
+@media screen and (min-width: 600px) {
+  .fa-circle {
+    padding: 1.5em;
+    font-size: 0.2em; } }
 
 /* ====== NAVBAR ====== */
 nav {
@@ -373,29 +378,21 @@ nav ul li:first-child > a {
   .topnav ul li {
     display: inline; } }
 
-html {
-  font-family: 'Nunito', sans-serif;
-  scroll-behavior: smooth; }
+#section0 {
+  background-image: url(../images/noodle_hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0; }
 
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+.hero-content {
+  padding-top: 20vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  text-shadow: 2px 2px 4px #1f1d1d; }
 
-body {
-  color: #F7EDD2;
-  background-color: #2B2625;
-  margin: 0; }
-
-h1 {
-  font-size: 6em;
-  text-align: center; }
-
-footer {
-  background-color: #070506;
-  color: #F7EDD2;
-  text-align: center;
-  padding: 1em; }
+.pink {
+  color: #ec3b59;
+  text-shadow: 2px 2px 4px #1f1d1d; }
 
 /* ====== Flex ====== */
 .wrapper-content {
@@ -429,6 +426,47 @@ footer {
   margin-right: 1em;
   width: 47.2vw; }
 
+@media screen and (min-width: 600px) {
+  .grid-item1 {
+    padding-left: 10%; }
+  .grid-item2 {
+    padding-left: 5%; }
+  .grid-item3 {
+    padding-left: 5%; }
+  .item2 {
+    padding-top: 0%;
+    padding-left: 5em;
+    padding-right: 10%; } }
+
+.ramen {
+  width: 100%;
+  height: auto;
+  margin-right: 0.5em; }
+
+html {
+  font-family: 'Nunito', sans-serif;
+  scroll-behavior: smooth; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  color: #F7EDD2;
+  background-color: #2B2625;
+  margin: 0; }
+
+h1 {
+  font-size: 6em;
+  text-align: center; }
+
+footer {
+  background-color: #070506;
+  color: #F7EDD2;
+  text-align: center;
+  padding: 1em; }
+
 #section0 {
   height: 100vh; }
 
@@ -443,34 +481,13 @@ footer {
   #section4 h2 {
     padding-top: 5em; }
 
-.ramen {
-  width: 100%;
-  height: auto;
-  margin-right: 0.5em; }
-
-.align-vertically {
-  vertical-align: middle; }
-
-.fa-circle {
-  padding: 1.5em; }
-
-.fa-instagram {
-  color: #ec3b59;
-  padding-right: 0.2em;
-  font-size: 2em; }
-
-.fa-facebook-f {
-  color: #ec3b59;
-  padding-left: 0.2em;
-  font-size: 2em; }
-
-.fa-circle {
-  font-size: 0.1em; }
-
 .caption {
   text-align: center;
   padding-top: 2em;
   padding-bottom: 1em; }
+
+.align-vertically {
+  vertical-align: middle; }
 
 .contact-box {
   border: 1px solid #F7EDD2;
@@ -519,23 +536,10 @@ blockquote:before {
     display: flex; }
   .aboutus-item {
     width: 50vw; }
-  .grid-item1 {
-    padding-left: 10%; }
-  .grid-item2 {
-    padding-left: 5%; }
-  .grid-item3 {
-    padding-left: 5%; }
-  .item2 {
-    padding-top: 0%;
-    padding-left: 5em;
-    padding-right: 10%; }
   .caption {
     font-size: 45px;
     padding-top: 0;
     padding-bottom: 0; }
-  .fa-circle {
-    padding: 1.5em;
-    font-size: 0.2em; }
   #section4 h2 {
     padding-top: 1em; }
   .input-field {

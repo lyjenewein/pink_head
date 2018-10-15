@@ -409,7 +409,10 @@ nav ul li:first-child > a {
   display: -ms-flexbox;
   display: flex;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
 
 .grid-item1 {
   padding: 1em;
@@ -421,13 +424,13 @@ nav ul li:first-child > a {
   padding: 1em;
   margin-left: 1em;
   margin-right: 0.5em;
-  width: 47.2vw; }
+  width: 47.8vw; }
 
 .grid-item3 {
   border: 1px solid #F7EDD2;
   padding: 1em;
   margin-right: 1em;
-  width: 47.2vw; }
+  width: 47.8vw; }
 
 @media screen and (min-width: 600px) {
   .grid-item1 {

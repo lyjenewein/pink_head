@@ -15,12 +15,12 @@
   
 .grid-item1 {
     padding: 1em;
-    border: 1px solid #F7EDD2;
+    border: 1px solid $tertiary-color;
     margin: 1em; 
 }
 
 .grid-item2 {
-    border: 1px solid #F7EDD2;
+    border: 1px solid $tertiary-color;
     padding: 1em;
     margin-left: 1em;
     margin-right: 0.5em;
@@ -28,7 +28,7 @@
 }
 
 .grid-item3 {
-    border: 1px solid #F7EDD2;
+    border: 1px solid $tertiary-color;
     padding: 1em;
     margin-right: 1em;
     width: 47.8vw;

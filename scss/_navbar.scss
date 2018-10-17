@@ -1,7 +1,7 @@
 /* ====== NAVBAR ====== */
 
 nav {
-    background-color: #070506;
+    background-color: $quaternary-color;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,7 +17,7 @@ nav {
           font-size: 1.2em;
           display: inline-block;
           padding: 1em;
-          color: #F7EDD2;
+          color: $tertiary-color;
           text-decoration: none;
         } & :hover {
           background-color: rgba(243, 125, 145, 0.815);

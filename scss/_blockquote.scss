@@ -2,7 +2,7 @@ blockquote {
     display: block;
     border-width: 2px 0;
     border-style: solid;
-    border-color: #F7EDD2;
+    border-color: $tertiary-color;
     padding: 1.5em 0 0.5em;
     margin: 1.5em 0;
     position: relative;
@@ -16,10 +16,10 @@ blockquote:before {
     top: -0.1em;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #2B2625;
+    background: $secondary-color;
     width: 3rem;
     height: 2rem;
     font: 5em/1.08em 'PT Sans', sans-serif;
-    color: rgb(236, 59, 89);
+    color: $primary-color;
     text-align: center;
 }

@@ -1,4 +1,5 @@
 @import "normalize";
+@import "variabler";
 @import "icons";
 @import "navbar";
 @import "hero";
@@ -20,8 +21,8 @@ html{
 }
 
 body {
-  color: #F7EDD2;
-  background-color: #2B2625;
+  color: $tertiary-color;
+  background-color: $secondary-color;
   margin: 0;
 }
 
@@ -31,15 +32,15 @@ h1 {
 }
 
 footer{
-  background-color: #070506;
-  color: #F7EDD2;
+  background-color: $quaternary-color;
+  color: $tertiary-color;
   text-align: center;
   padding: 1em;
 }
 
 button{
   background-color: rgb(236, 59, 89);
-  color: #F7EDD2;
+  color: $tertiary-color;
   border-radius: 6px;
   border: 1px solid rgb(236, 59, 89);
   padding: 0.3em;

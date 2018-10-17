@@ -39,10 +39,10 @@ footer{
 }
 
 button{
-  background-color: rgb(236, 59, 89);
+  background-color: $primary-color;
   color: $tertiary-color;
   border-radius: 6px;
-  border: 1px solid rgb(236, 59, 89);
+  border: 1px solid $primary-color;
   padding: 0.3em;
 }
  /* ====== sections ====== */
